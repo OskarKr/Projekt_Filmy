@@ -2,9 +2,9 @@ Aby aplikacja działała poprawnie potrzebna jest baza danych, która została d
  1. Należy zaimportować backup bazy (MovieRentalDB.bak) w nast. sposób:
 	-W Microsoft SQL Server Management kliknąć ppm na Database >> Restore Files and Filegroups >> Wpisać w To database: "MovieRentalDB" >> From device: wybrać MovieRentalDB.bak
 
- 2. W pliku Web.config w obu Data Source wpisać nazwę serwera z Microsoft SQL Server Management.
+ 2. W pliku Web.config w obu Data Source podmienić nazwę ARNO na nazwę serwera z Microsoft SQL Server Management.
 
-Baza teraz działać poprawnie wraz z aplikacją.
+Baza teraz powinna działać poprawnie wraz z aplikacją.
 
 Strona startowa to: homepage.aspx
 
