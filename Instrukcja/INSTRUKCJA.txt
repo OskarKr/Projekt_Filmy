@@ -1,0 +1,17 @@
+Aby aplikacja działała poprawnie potrzebna jest baza danych, która została do niej podłączona.
+ 1. Należy zaimportować backup bazy (MovieRentalDB.bak) w nast. sposób:
+	-W Microsoft SQL Server Management kliknąć ppm na Database >> Restore Files and Filegroups >> Wpisać w To database: "MovieRentalDB" >> From device: wybrać MovieRentalDB.bak
+
+ 2. W pliku Web.config w obu Data Source wpisać nazwę serwera z Microsoft SQL Server Management.
+
+Baza teraz działać poprawnie wraz z aplikacją.
+
+Strona startowa to: homepage.aspx
+
+Istniejące konto Admina to:
+	Login: admin
+	Hasło: admin
+
+Logowanie jest umieszczone w stopce strony głównej.
+Konto Admina jest nie możliwe do rejestracji. Jedyną opcją jest wpisanie loginu oraz hasła z poziomu bazy danych.
+
