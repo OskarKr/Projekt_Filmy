@@ -1742,7 +1742,10 @@
     <Content Include="images\search-online.png" />
     <Content Include="images\sign-up.png" />
     <Content Include="images\writer.png" />
+    <Content Include="movie_inventory\inception.jpg" />
     <Content Include="movie_inventory\movie2.png" />
+    <Content Include="movie_inventory\tenet.jpg" />
+    <Content Include="movie_inventory\wolfWallStreet.jpg" />
     <Content Include="userlogin.aspx" />
     <Content Include="userprofile.aspx" />
     <Content Include="usersignup.aspx" />
